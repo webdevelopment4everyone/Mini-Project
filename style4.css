@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+
+h3 {
+  text-align: center;
+  margin: 36px;
+  color: cyan;
+}
+
+table,th,td {
+  border: 1px solid green;
+}
+
+th,td {
+  padding: 10px 34px;
+  text-align: center;
+  color: yellow;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 2px auto;
+}

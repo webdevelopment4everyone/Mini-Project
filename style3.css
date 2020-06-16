@@ -1,0 +1,54 @@
+body,button,input {
+   font-family: 'Roboto', sans-serif;
+ }
+
+ h1 {
+   font-weight: normal;
+   text-align: center;
+   margin-top: 120px;
+   color: red;
+ }
+
+ form {
+   margin: 0 auto;
+   display: block;
+   width: max-content;
+ }
+
+ .input-group {
+   margin: 12px 0;
+   color: blue;
+ }
+
+ label {
+   margin-right: 12px;
+   font-size: 19px;
+   color: cyan;
+ }
+
+ .input-group input {
+   width: 320px;
+   height: 22px;
+   padding: 2px 10px;
+   font-size: 15px;
+   float: right;
+ }
+
+ form > input:last-child {
+   display: block;
+   width: 30%;
+   padding: 8px 24px;
+   float: right;
+   background-color: #333;
+   border: none;
+   color: white;
+ }
+
+ form > input:last-child:hover {
+   opacity: .7;
+ }
+
+ .checkbox-group {
+   margin: 36px 0;
+   color: cyan;
+ }

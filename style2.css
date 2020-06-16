@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+strong {
+  font-weight: 700;
+}
+
+nav {
+  background-color: limegreen;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+  padding: 16px 38px;
+  margin-right: 50px;
+}
+
+nav li a:hover {
+  background-color: green;
+
+}
